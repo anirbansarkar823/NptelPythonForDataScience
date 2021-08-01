@@ -1,0 +1,40 @@
+Numpy:
+	- can be used for: mathamatical operations, fourier transforms,  linear algebra operations, random  number generations.
+
+	- import numpy as np
+	numpy.array(object)
+	
+	x = np.array([2,3,4,5]) or x = np.array([2, 3, 'n', 5])
+
+
+
+	- numpy.linspace(start, stop, num, endpoint, dtype, retstep): to generate equally spaced number.
+	eg: numpy.linspace(start=1, stop=5, num=10, endpoint=True, retstep = False) : equally spaced numbers from 1 to 5 (as endpoint is True 5 will be included) won't print the increment value as retstep is False.
+
+
+
+	- numpy.arange(start, stop, step)
+
+
+	- numpy.ones(shape, dtype): default dtype-float
+
+	- numpy.zeros(shape, dtype)
+	eg: numpy.zeros((2,5), int)
+
+	- numpy.random.rand(shape): to generate random numbers
+
+
+	- numpy.logspace(start, stop, num, endpoint, base, dtype)#defalult base = 10.0
+
+
+
+**** Numpy performs  faster than lists. Numpy also uses less space as compared to lists.
+
+
+
+
+
+
+	- reshape(): to reshape the numpy array
+	grid = np.arange(start=1, stop=10).reshape(3,3)
+

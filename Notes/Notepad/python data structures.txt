@@ -1,0 +1,75 @@
+type(object) is float:
+	#the above line will check whether an object is of specified type.
+
+Types:
+	float, int, str, bool, complex
+
+
+Precedence of Operators:
+Parentheses
+Exponent
+Division
+Multiplication
+Addition and Subtraction
+Bitwise AND
+Bitwise OR
+Relational/Comparison Operators
+Logical NOT
+Logical AND
+Logical OR
+
+
+
+Python Lists:
+ - insert() funtions adds element to specified position. 
+	eg: lst1.insert(pos, object)
+
+- del lst[pos] to remove specific element
+
+- lst.remove('object'); removes the first occurence of 'object' from list lst.
+
+- lst.pop(index); removes element from specified index and returns
+
+
+Python Tuples:
+- indexing is possible for tuples. It is heterogenous like list.
+
+- Tuples are immutable. append, remove or update will not work 
+	eg: tup = (1,2)
+	tup[1] = 5 # this line will through error
+
+
+Slicing:
+	obj[x:y] - #y exluded
+- lists, tuples
+- min, max, avg etc. works for list, tuple
+
+
+Dictionary:
+	- dict.items(): gives both keys and values
+	- dict.keys(): only keys
+	- dict.values(): only values
+
+	- remove, update and adding is possible to dict.
+	- del dict[key]
+	- dict.clear() : to clear whole dictioinary
+	-
+
+Sets: {}
+	- no duplicates
+	- add() to add element. seti.add(object)
+	- discard() to remove element. seti.discard(object)
+	- seti.clear(): to clear all elements
+	- unordered
+
+	- union(): setA.union(setB)
+	- intersection(): setA.intersection(setB)
+	- difference(): setA.difference(setB) = setA - setB
+	- symmetric_difference() - it prints the elements not common to both sets.
+
+Concatenation:
+- list, tuple
+- lst = lst1 + lst2
+
+
+Path: C:\Users\anirb_000\Desktop\Python for Data Science

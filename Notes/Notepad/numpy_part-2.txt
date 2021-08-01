@@ -1,0 +1,43 @@
+Numpy operation to perform element wise addition:
+[N.B: the shape of both arrays must be same]
+
+arr = np.array([[1,2,3], [4,5,6], [7,8,9]]
+ > arr.shape : to find out the shape of array
+
+- np.add(arr_a, arr_b)
+- np.multiply(arr_a, arr_b)
+- np.subtract(arr_a, arr_b)
+- np.divide(arr_a, arr_b)
+- np.remainder(arr_a, arr_b)
+
+**Indexing in array:
+arr_a[0,1]
+[0,0 	0,1	0,2]
+[1,0	1,1	1,2]
+[2,0,	2,1	2,2]
+
+**Slicing in array:
+arr_a[0:2] - will fetch the first two complete rows
+arr_a[0:2, 0:1] - will fetch the first two rows, but only first two columns from them
+
+
+**subset of array (using slicing):
+arr_sub = arr_a[:2, :2]
+
+
+**transpose of a matrix:
+np.transpose(arr_b)
+
+**appending elements to existing array:
+arr_ap = np.append(arr_a, row/col, axis)
+axis = 0; row
+axis = 1; column
+row/column should be in format: [[]]
+**inserting to a particular position in an numpy array:
+np.insert(array, obj, values, axis)
+obj - index position where we are planning to insert the values to array
+axis: 0-row, 1-column.
+
+** deleting from array:
+np.delete(array, obj, axis)
+

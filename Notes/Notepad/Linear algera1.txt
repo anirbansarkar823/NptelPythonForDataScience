@@ -1,0 +1,17 @@
+Deteminant of matrix:
+	numpy.linalg.det(mat1)
+
+Rank of matrix: 
+	numpy.linalg.matrix_rank(mat1)
+
+Inverse of matrix:
+	numpy.linalg.inv(mat1)
+	#caution: numpy.linalg.det(mat1) != 0
+
+Solution of system of linear equations:
+	3x+y+2z=2
+	3x+2y+5z=-1
+	6x+7y+8z=3
+	i.e., AX = b
+	
+	numpy.linalg.solve(mat_A, mat_b)

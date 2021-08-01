@@ -1,0 +1,22 @@
+Anaconda Distribution: this distribution comes with all Python libraries.
+
+In spyder:
+
+	- To set working directory- 
+		import os
+		os.chdir('C:/Users/...')
+	
+	- to comment selected lines:
+		Ctrl + 1
+
+	- to clear console:
+		%clear or clear or Ctrl + L
+	- to remove/clear variable windows
+		%reset
+		del var1,var2
+
+Important python libraries to use:
+NumPy - Numerical Python
+Pandas - Dataframe Python
+Matplotlib - Visualization
+Sklearn - Machine Learning

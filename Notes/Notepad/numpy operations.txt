@@ -1,0 +1,7 @@
+element wise operations:
+np.add
+np.multiply
+np.subtract
+np.divide
+np.remainder
+
